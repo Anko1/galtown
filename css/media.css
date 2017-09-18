@@ -13,15 +13,24 @@
 
   #works {
     text-align: center; }
+    #works .container-fluid::before {
+      background: none; }
+    #works .service {
+      display: inline; }
 
   #teams {
-    text-align: center; }
+    text-align: center;
+    margin: 40px 0; }
     #teams .img-responsive {
       display: inline; }
 
-  #testimonials .ecology .ecology-text {
-    line-height: 28px;
-    font-size: 21px; } }
+  #testimonials .ecology {
+    height: auto; }
+    #testimonials .ecology::before {
+      background: none; }
+    #testimonials .ecology .ecology-text {
+      line-height: 28px;
+      font-size: 21px; } }
 @media screen and (max-width: 377px) {
   body {
     overflow-x: hidden; }

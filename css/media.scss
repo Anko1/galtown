@@ -19,10 +19,19 @@
 
   #works{
     text-align: center;
+
+    .container-fluid::before{
+      background: none;
+    }
+
+    .service{
+      display: inline;
+    }
   }
 
   #teams{
     text-align: center;
+    margin: 40px 0;
 
     .img-responsive{
       display: inline;
@@ -31,6 +40,12 @@
 
   #testimonials{
     .ecology{
+      height: auto;
+
+      &::before{
+        background: none;
+      }
+
       .ecology-text{
         line-height: 28px;
         font-size: 21px;
