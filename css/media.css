@@ -1,0 +1,54 @@
+@media screen and (max-width: 769px) {
+  #s-lang {
+    top: 80px;
+    right: 5%;
+    transform: translateX(-35%); }
+
+  #to-top {
+    display: none !important; }
+
+  #services .services-content {
+    height: 50px;
+    margin-bottom: 30px; }
+
+  #works {
+    text-align: center; }
+
+  #teams {
+    text-align: center; }
+    #teams .img-responsive {
+      display: inline; }
+
+  #testimonials .ecology .ecology-text {
+    line-height: 28px;
+    font-size: 21px; } }
+@media screen and (max-width: 377px) {
+  body {
+    overflow-x: hidden; }
+
+  #banner .banner-text h1 {
+    font-size: 26px; }
+  #banner .banner-text p {
+    line-height: 30px; }
+
+  #services .services-content {
+    height: 80px; }
+
+  #works h3 {
+    font-size: 20px; }
+  #works p {
+    font-size: 14px; }
+
+  #teams h2 {
+    font-size: 34px; }
+
+  #testimonials .ecology {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    #testimonials .ecology .ecology-header {
+      padding: 0; }
+    #testimonials .ecology .ecology-text {
+      font-size: 13px; } }
+
+/*# sourceMappingURL=media.css.map */
